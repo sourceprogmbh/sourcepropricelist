@@ -1,0 +1,14 @@
+.header1{
+
+  font-family: 'Niconne', cursive;
+  width:50%;
+  text-align:center;
+  margin:auto;
+  margin-top: 50px;
+}
+
+#list{
+
+  height: 1000px;
+  width: 1200px;
+}
