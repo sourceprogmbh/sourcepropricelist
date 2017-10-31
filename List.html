@@ -1,48 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Price List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+
+
   </head>
   <body>
-    <style>
-    h1{
 
-      font-family: 'Gloria Hallelujah', cursive;
-      width:50%;
-      text-align:center;
-      margin:auto;
-      margin-top: 50px;
-    }
+  <div class="container">
 
-
-    #buttons{
-      text-align:center;
-      margin:auto;
-      margin-top: 50px;
-    }
-
-    img{
-      margin-top: 15px;
-    }
-    body{
-      margin-top: 150px;
-    }
-    </style>
-    <center><img src="source_pro_logo.png" alt=""></center>
-    <h1>Welcome To Sourcepro Price List</h1>
-    <h1>欢迎浏览Sourcepro价格表</h1>
-
-    <div id="buttons">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <br><a class="navbar-brand" href="http://price.sourcepro.de"><img src="source_pro_logo.png" width="100" height="35" class="d-inline-block align-top" alt="">
+    <font color="#f48042">Sourcepro</font>
+  </a></br>
 
 
-    <a href="iframe.html"><button type="button" class="btn btn-primary" >在线浏览</button></a>
-    <a href="https://pan.baidu.com/s/1c2B6t7E" target="_blank"><button type="button" class="btn btn-secondary">下载1（百度云盘）</button></a>
-    <a href="https://drive.google.com/open?id=1obgjqJ4d-qTimlf1cp5ULEG1ZM80JYYR2Ti2w_ZlMZM" target="_blank"><button type="button" class="btn btn-success">下载2（Google Drive）</button></a>
-    
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="List.html"><font color="#f48042">首页</font></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="iframe.html"><font color="#f48042">在线浏览</font></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="http://sourcepro.de" target="_blank"><font color="#f48042">访问官网</font></a>
+        </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#f48042">下载</font>
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="https://pan.baidu.com/s/1c2B6t7E" target="_blank">百度云盘</a>
+            <a class="dropdown-item" href="https://drive.google.com/open?id=1obgjqJ4d-qTimlf1cp5ULEG1ZM80JYYR2Ti2w_ZlMZM" target="_blank">Google Drive</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+</div>
+
+    <center><font color="#f48042"><h1 id="name" >欢迎来到Sourcepro价格网站</h1></font></center>
+
+    <div class="h4">
+
+      <h4>#母婴产品</h4>
+      <h4>#美妆# 保健品#</h4>
+
     </div>
 
+    <footer>
+      <p>基于<a href="https://getbootstrap.com/" target="_blank"><font color="#4242f4">Bootstrap</font></a>
+      ，由<a href="https://Netlify.com" target="_blank"><font color="#4242f4">Heroku</font></a>驱动</p>
+
+
+    </footer>
+
+
+    <style>
+    #bars{
+      /*color:#f48042;*/
+      font: color="#f48042";
+    }
+    footer{
+      margin-top: 200px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      color:#f48042;
+    }
+    .nav-link{
+      color:#f48042;
+    }
+    a{
+      color: #f48042;
+    }
+    body{
+    background-image: url(bg.png);
+    /*background-size: 100%;*/
+    }
+    #name{
+      margin-top: 100px;
+    }
+    .h4{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#f48042;
+    }
+    .buttons{
+      margin-top: 20px;
+      text-align: center;
+    }
+    .heading{
+      margin-top: 250px;
+      text-align: center;
+    }
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>
 </html>
